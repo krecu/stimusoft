@@ -1,0 +1,26 @@
+{
+    "name": "krecu/stimulsoft",
+    "description": "StimulSoft report adapter",
+    "keywords": ["report"],
+    "homepage": "http://github.com/krecu/stimulsoft",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kretsu Evgeniy",
+            "email": "krecu.me@ya.ru",
+            "homepage": "http://krotix.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.7"
+    },
+    "autoload": {
+        "psr-4": {"StimulSoft\\": "src/StimulSoft"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.16.x-dev"
+        }
+    }
+}
